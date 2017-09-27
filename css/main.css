@@ -1,0 +1,33 @@
+/*special style*/
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+
+/*general smart phone style*/
+.container {
+    padding: 1rem;
+    border: 1px solid #CCC;
+}
+
+.container img {
+    padding: 1rem;
+    border: 1px solid cornflowerblue;
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+.container p {
+    padding: 1rem;
+    border: 1px solid coral;
+}
+
+
+.footer {
+    background-color: #444;
+    color: white;
+}
+
